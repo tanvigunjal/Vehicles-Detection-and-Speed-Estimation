@@ -28,6 +28,11 @@ command: pip install -r requirements.txt
 command: python3 src/detection.py
 5. AccesstheAPI:Once the server is running,you can access the API ”http://localhost:42099/detect- vehicles”. Use POSTMAN tool to upload a video as form-data.
 
+### Results
+
+![](https://github.com/tanvigunjal/Vehicles-Detection-and-Speed-Estimation/blob/main/images/image-1.png)
+![](https://github.com/tanvigunjal/Vehicles-Detection-and-Speed-Estimation/blob/main/images/image-2.png)
+
 ### Future Work
 1. Explore libraries such as Detectron2 and supervision, can be considered to further improve the capabilities and efficiency of the vehicle detection system
 2. The integration of models such as the Segment Anything Model (SAM) could be explored to potentially improve the accuracy and performance of the system
